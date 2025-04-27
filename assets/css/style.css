@@ -231,3 +231,7 @@ main {
   align-items: center;
   color: #333333;
 }
+/* vacation section start  */
+.vacation img {
+  width: 100%;
+}
