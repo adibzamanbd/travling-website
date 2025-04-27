@@ -55,6 +55,7 @@ nav {
 }
 .btn a:hover {
   background-color: #db5d19;
+  padding: 15px 45px;
 }
 
 /* main start  */
@@ -123,6 +124,11 @@ main {
 .destination-box {
   background-color: #f0f0f073;
   border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.destination-box:hover {
+  transform: translateY(20px);
 }
 #main-img {
   margin-top: 5px;
@@ -210,11 +216,17 @@ main {
   border-radius: 6px;
   border: 2px solid #fff;
   width: 100%;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.about-box:hover {
+     transform: translateX(30px);
 }
 .about-cont-text {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  cursor: pointer;
 }
 .about-cont-text h3 {
   font-size: 20px;
